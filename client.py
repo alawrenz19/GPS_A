@@ -9,5 +9,5 @@ f = open('gData.txt', 'r')
 
 while True:
     sleep(2)
-    data = r.read()
+    data = f.read()
     t.send(str(data))
